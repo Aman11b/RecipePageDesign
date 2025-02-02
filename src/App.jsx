@@ -41,7 +41,6 @@ export default function App() {
               <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
             </ul>
           </section>
-          <hr className="hr"/>
           <section className="instruction">
             <h2>Instructions</h2>
             <ol>
@@ -64,11 +63,10 @@ export default function App() {
                 </li>
             </ol>
           </section>
-          <hr className="hr"/>
           <section className="nutrition">
             <h2>Nutrition</h2>
             <p>The table below shows nutritional values per serving without the additional fillings.</p>
-            <table>
+            <table className="nutrition-table">
               <tbody>
                 <tr>
                   <td><strong>Calories:</strong></td>
