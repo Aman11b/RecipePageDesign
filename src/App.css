@@ -92,6 +92,8 @@ body{
   padding: 1.5rem;
 
   border-radius: 0.5rem;
+  
+  margin-bottom: 1rem;
 }
 .preparation-time >h2{
   font-weight: 500;
@@ -111,6 +113,57 @@ body{
 .preparation-time>ul>li::marker{
   color: var(--rose-800);
 }
+
+/* Ingredient container */
+.ingredient,
+.instruction{
+  font-family: var(--font-outfit);
+  margin-bottom: 1rem;
+}
+.ingredient >h2,
+.instruction >h2{
+  font-family: var(--font-young-serif);
+  font-weight: 500;
+  color: var(--brown-800);
+
+  margin-bottom: 0.8rem;
+}
+.ingredient>ul{
+  padding-left: 1rem;
+  color: var(--stone-600);
+}
+.ingredient >ul>li{
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+/* horizontal */
+.hr{
+  color: var(--stone-100);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+/* instruction */
+.instruction>ol{
+  padding-left: 1rem;
+  color: var(--stone-600);
+}
+.instruction >ol>li{
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  width: 60ch;
+
+  font-size: 0.8rem;
+}
+.instruction >ol ::marker{
+  font-weight: bold;
+  color:var(--brown-800);
+}
+
+
+
 
 
 
