@@ -1,3 +1,4 @@
+/* custom functions */
 :root {
   --white: hsl(0, 0%, 100%);
   --stone-100: hsl(30, 54%, 90%);
@@ -11,6 +12,7 @@
   --font-outfit: 'Outfit', sans-serif;
 }
 
+/* resets */
 *,
 *::after,
 *::before{
@@ -18,8 +20,6 @@
   padding: 0;
   box-sizing: border-box;
 
-
-  /* outline: 1px solid rebeccapurple; */
 }
 
 img{
@@ -30,12 +30,12 @@ body{
   background-color: var(--stone-150);
 }
 
+/* wrapper */
 .wrapper{
   width: 100vw;
   min-height: 100vh;
 
-
-  background-color:var(--stone-150);
+  background-color:var(--stone-100);
 
   display: flex;
   flex-direction: column;
@@ -43,12 +43,13 @@ body{
   align-items: center;
 }
 
+/* container */
 .container{
-  max-width: 500px;
+  max-width:580px;
   height: auto;
   margin: 4rem;
 
-  background-color: aliceblue;
+  background-color: white;
 
   padding: 2rem;
 
@@ -62,6 +63,54 @@ body{
   margin-bottom: 1.5rem;
 }
 
+/* intro container */
+.intro{
+  margin-bottom: 1rem;
+}
+.intro >h1{
+  font-family: var(--font-young-serif);
+  font-weight: 500;
+  color: var(--stone-900);
+
+  line-height: 1.4rem;
+
+  margin-bottom: 1rem;
+}
+.intro >p{
+  font-family: var(--font-outfit);
+  color: var(--stone-600);
+
+  font-size: 0.8rem;
+  width:60ch;
+}
+
+/* preparation-time container */
+.preparation-time{
+  background-color: var(--rose-50);
+  font-family: var(--font-outfit);
+
+  padding: 1.5rem;
+
+  border-radius: 0.5rem;
+}
+.preparation-time >h2{
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--rose-800);
+
+  margin-bottom: 0.5rem;
+}
+.preparation-time > ul{
+  padding-left: 1.2rem;
+}
+.preparation-time >ul >li{
+  color: var(--stone-600);
+  padding-left: 1rem;
+  margin-top: 0.4rem;
+}
+.preparation-time>ul>li::marker{
+  color: var(--rose-800);
+}
 
 
 

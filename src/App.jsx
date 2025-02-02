@@ -23,10 +23,10 @@ export default function App() {
                 <strong>Total:</strong> Approximately 10 minutes
               </li>
               <li>
-                <strong>Preparation: 5 minutes</strong>
+                <strong>Preparation:</strong>5 minutes
               </li>
               <li>
-                <strong>Cooking: 5 minutes</strong>
+                <strong>Cooking:</strong> 5 minutes
               </li>
             </ul>
           </section>
