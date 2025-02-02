@@ -2,8 +2,9 @@ export default function App() {
   return (
     <>
       <main className="wrapper">
-        <img src="./assets/images/image-omelette.jpeg" alt="image"/>
+        
         <section className="container">
+          <img src="./assets/images/image-omelette.jpeg" alt="image"/>
           
           <header className="intro">
             <h1 className="heading" >
