@@ -21,18 +21,13 @@
   box-sizing: border-box;
 
 }
-
 img{
   display: block;
 }
 
-body{
-  background-color: var(--stone-150);
-}
-
 /* wrapper */
 .wrapper{
-  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
 
   background-color:var(--stone-100);
@@ -47,11 +42,11 @@ body{
 .container{
   max-width:580px;
   height: auto;
-  margin: 4rem;
+  margin: 2rem;
 
   background-color: white;
 
-  padding: 2rem;
+  padding: 1.5rem;
 
   border-radius: 1rem;
   
@@ -135,6 +130,8 @@ body{
 .ingredient>ul{
   padding-left: 1rem;
   color: var(--stone-600);
+
+  margin-bottom: 1rem;
 }
 .ingredient >ul>li{
   margin-bottom: 0.5rem;
@@ -146,6 +143,8 @@ body{
 .instruction>ol{
   padding-left: 1rem;
   color: var(--stone-600);
+
+  margin-bottom: 1rem;
 }
 .instruction >ol>li{
   margin-bottom: 0.5rem;
